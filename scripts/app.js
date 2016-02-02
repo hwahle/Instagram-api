@@ -1,7 +1,7 @@
 var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'monkey',
-    clientId: '40f58b3815c04090b0918afa12312859'
+    get: 'user',
+    userId: '641301337',
+    accessToken: '641301337.c4d52ef.6dc4d6719ce645d0a8826ab507a419d9'
 })
 
 feed.run()

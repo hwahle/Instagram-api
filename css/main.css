@@ -1,3 +1,24 @@
+/* nav styles */
+.top-navigation > .content {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+p {
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+
 /* main content - instagram
 ------------------------------------------------------------------- */
 

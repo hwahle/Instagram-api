@@ -11,8 +11,8 @@
 
 }
 p {
-  font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
     color: #838994;
     letter-spacing: 0.03em;
     text-align: center;
@@ -21,6 +21,12 @@ p {
 
 /* main content - instagram
 ------------------------------------------------------------------- */
+#instafeed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
 
 #instafeed a {
   padding:5px 5px 1px 5px;
@@ -55,3 +61,6 @@ p {
 #instafeed a:hover .likes {
   opacity:1;
 }
+
+
+

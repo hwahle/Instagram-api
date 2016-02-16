@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var feed = new Instafeed({
     get: 'user',
     userId: '641301337',
@@ -5,4 +6,8 @@ var feed = new Instafeed({
     template: '<a href="#" data-featherlight="{{image}}"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a>'
 })
 
+
 feed.run()
+})
+
+

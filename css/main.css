@@ -22,7 +22,6 @@ p {
 /* main content - instagram
 ------------------------------------------------------------------- */
 #instafeed {
-    position: fixed;
     width: 100%;
     z-index: 9999;
 }
@@ -60,6 +59,15 @@ p {
 
 #instafeed a:hover .likes {
   opacity:1;
+}
+
+.featherlight .featherlight-image {
+    width: 100%;
+}
+
+.featherlight.defaults {
+  type: 'image',                  /* Specify content type. If unset, it will check for the targetAttrs value. */
+    contentFilters:'image' /* List of content filters to use to determine the content */
 }
 
 
